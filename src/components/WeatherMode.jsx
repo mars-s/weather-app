@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { Autocomplete, TextInput, Pane, Text } from 'evergreen-ui'
+import React from 'react'
+import { Autocomplete, TextInput, Pane } from 'evergreen-ui'
 
-const TextLookUp = (id) => {
-    return document.getElementById(id).value
-}
+// const TextLookUp = (id) => {
+//     return document.getElementById(id).value
+// }
 
 const WeatherMode = () => {
 
