@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Button>lol works</Button>
-      <WeatherMode />
+      <WeatherMode cities={citiesList} />
     </div>
   );
 }
