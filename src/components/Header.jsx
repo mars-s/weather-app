@@ -1,12 +1,12 @@
 import React from 'react'
-import { Pane, Button, Heading } from 'evergreen-ui'
+import { Pane, Button, Heading, MoonIcon, HomeIcon } from 'evergreen-ui'
 const Header = () => {
     return (
         <>
-            <Pane display="flex" alignItems="center">
-                <Heading>Jhugnu Weather</Heading>
-                <Button>Home</Button>
-                <Button>Weather</Button>
+            <Pane display="flex" alignItems="center" marginY={24}>
+                <Heading flex={1}>Jhugnu Weather</Heading>
+                <Button appearance="minimal" iconAfter={HomeIcon}>Home</Button>
+                <Button iconAfter={MoonIcon}>Weather</Button>
             </Pane>
         </>
     )
