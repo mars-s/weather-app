@@ -1,5 +1,6 @@
 import React from 'react'
-import { Autocomplete, TextInput, Pane } from 'evergreen-ui'
+import { Container, TextField } from '@material-ui/core';
+import { Autocomplete } from '@material-ui/lab';
 
 // const TextLookUp = (id) => {
 //     return document.getElementById(id).value
@@ -12,40 +13,15 @@ const WeatherMode = () => {
 
     return (
         <div>
-            <Pane
-                elevation={2}
-                float="left"
-                width={500}
-                height={400}
-                margin={24}
-                display="flex"
-                justifyContent="center"
-                alignItems="center"
-                flexDirection="column"
-            
-            >
+            <Container>
                 <Autocomplete
-                    title="Cities"
-                    onChange={changedItem => console.log(changedItem)}
-                    items={cities}
-                    >
-                    {props => {
-                        const { getInputProps, getRef, inputValue, openMenu } = props
-                        return (
-                        <TextInput
-                            placeholder="Open on focus"
-                            value={inputValue}
-                            ref={getRef}
-                            {...getInputProps({
-                            onFocus: () => {
-                                openMenu()
-                            }
-                            })}
-                        />
-                        )
-                    }}
-                </Autocomplete>
-            </Pane>
+                id="combo-box-demo"
+                options={cities}
+                getOptionLabel={(option) => option.title}
+                style={{ width: 300 }}
+                renderInput={(params) => <TextField {...params} label="Combo box" variant="outlined" />}
+                />
+            </Container>
             
 
         </div>

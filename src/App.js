@@ -1,6 +1,6 @@
-import { Pane } from 'evergreen-ui'
+import { Container } from '@material-ui/core'
 import WeatherMode from './components/WeatherMode'
-import Header from './components/Header'
+import Header2 from './components/Header2'
 import Home from './components/Home'
 import { Switch, Route, BrowserRouter as Router} from 'react-router-dom';
 
@@ -12,19 +12,19 @@ import { Switch, Route, BrowserRouter as Router} from 'react-router-dom';
 function App() {
   return (
     <Router>
-        <Pane width={500} margin={"auto"}>
-          <Header />
+      <Header2 />
+        <Container>
           <Switch>
             <Route exact path="/">
               {/* landing page */}
               <Home />
             </Route>
-            <Route path='App'>
-              {/* //actual app */}
+            <Route path='/App'>
+              {/* actual app */}
               <WeatherMode />
             </Route>
           </Switch>
-        </Pane>
+        </Container>
     </Router>
   );
 }
