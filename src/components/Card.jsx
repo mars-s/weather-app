@@ -11,7 +11,7 @@ const Card = () => {
                     <div class="flex items-center justify-center w-full lg:justify-start lg:w-1/2">
                         <img src="https://dummyimage.com/200x200/F3F4F7/8693ac" alt="placeholder" class="rounded-lg" />
                     </div>
-                    <div class="flex flex-col w-full text-blueGray-500 lg:ml-4">
+                    <div class="flex flex-col w-full text-blueGray-500 lg:ml-4 p-3">
                         <AutoCompleteSearch />
                         <h2 class="mt-4 mb-8 text-xs font-semibold tracking-widest text-black uppercase lg:mt-0 title-font pt-3">weather summary will go here</h2>
                         <p class="mb-3 text-base leading-relaxed text-blueGray-500">a short description of the weather will go here, and the icon of the weather state will go in the picture.</p>
