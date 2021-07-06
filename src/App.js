@@ -1,6 +1,6 @@
-import { Container } from '@material-ui/core'
+
 import WeatherMode from './components/WeatherMode'
-import Header2 from './components/Header2'
+import Header2 from './components/Header'
 import Home from './components/Home'
 import { Switch, Route, BrowserRouter as Router} from 'react-router-dom';
 
@@ -13,18 +13,21 @@ function App() {
   return (
     <Router>
       <Header2 />
-        <Container>
-          <Switch>
-            <Route exact path="/">
-              {/* landing page */}
-              <Home />
-            </Route>
-            <Route path='/App'>
-              {/* actual app */}
-              <WeatherMode />
-            </Route>
-          </Switch>
-        </Container>
+        <Switch>
+          <Route exact path="/">
+            {/* landing page */}
+            <Home />
+          </Route>
+          <Route path='/App'>
+            {/* actual app */}
+            lol this is the app page
+            <WeatherMode />
+          </Route>
+          <Route path='/team'>
+            {/* staff memeber page */}
+            lol this is teams app
+          </Route>
+        </Switch>
     </Router>
   );
 }
