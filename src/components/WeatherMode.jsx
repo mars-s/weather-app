@@ -1,5 +1,4 @@
 import React from 'react'
-import AutocompleteSearch from './AutocompleteSearch'
 import Card from './Card'
 // const TextLookUp = (id) => {
 //     return document.getElementById(id).value
@@ -12,7 +11,6 @@ const WeatherMode = () => {
 
     return (
         <div>
-           <AutocompleteSearch />
             <Card />
 
         </div>

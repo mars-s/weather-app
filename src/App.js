@@ -20,7 +20,6 @@ function App() {
           </Route>
           <Route path='/App'>
             {/* actual app */}
-            lol this is the app page
             <WeatherMode />
           </Route>
           <Route path='/team'>
