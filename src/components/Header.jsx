@@ -6,17 +6,26 @@ import { IoIosClose } from 'react-icons/io'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 
-const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Team', href: '/team', current: false },
-  { name: 'Weather App', href: '/app', current: false },
-]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function header(props) {
+
+  const isCurrent = (props, target) => {
+    if (props === target) {
+      return true
+    } else return false
+  }
+
+  const navigation = [
+    { name: 'Home', href: '/', current: isCurrent(props.currentPage, 'home')},
+    { name: 'Team', href: '/team', current: isCurrent(props.currentPage, 'team')},
+    { name: 'Weather App', href: '/app', current: isCurrent(props.currentPage, 'app')},
+  ]
+
+
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (

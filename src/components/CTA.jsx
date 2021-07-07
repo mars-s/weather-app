@@ -28,7 +28,7 @@ const CTA = () => {
                             </a>
                         </div>
                     </div>
-                    <div class="container mx-auto px-6">
+                    <div class="container mx-auto px-9">
                         <img src="https://images.pexels.com/photos/7766717/pexels-photo-7766717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt='pic' className="object-contain object-left h-full w-full" />
                     </div>
                 </div>
