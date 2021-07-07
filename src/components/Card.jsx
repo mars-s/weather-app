@@ -9,7 +9,7 @@ const Card = () => {
             <div class="p-6 mx-auto bg-white border rounded-lg shadow-xl lg:w-1/2">
                 <div className='grid grid-cols-4 gap-2'>
                     <div className='col-span-3'>
-                        <AutoCompleteSearch  />
+                        <AutoCompleteSearch />
                     </div>
                     <Button text='Search' />
                 </div>
