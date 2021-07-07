@@ -20,16 +20,16 @@ const CTA = () => {
                             Introducing Starfall a intuitive web-based weather app. Feel free to check the forecast at your connivence, whether its to confirm if you need an umbrella or a jacket, our app will guide you.
                         </p>
                         <div class="flex mt-8">
-                            <a href="/app" class="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400">
+                            <a href="/app" class="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400 shadow-lg">
                                 Get started
                             </a>
-                            <a href='/team' class="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md">
+                            <a href='/team' class="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 shadow-lg hover:text-white text-md">
                                 Read more
                             </a>
                         </div>
                     </div>
                     <div class="container mx-auto px-6 relative inset-y-0 left-3">
-                        <img src="https://images.pexels.com/photos/7766717/pexels-photo-7766717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt='pic' className="object-contain object-left h-full w-full" />
+                        <img src="https://images.pexels.com/photos/7766717/pexels-photo-7766717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt='pic' className="object-cover object-left h-full w-full rounded-3xl shadow-2xl" />
                     </div>
                 </div>
             </div>
