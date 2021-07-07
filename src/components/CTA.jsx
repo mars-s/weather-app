@@ -17,7 +17,7 @@ const CTA = () => {
                             </span>
                         </h1>
                         <p class="text-sm sm:text-base text-gray-700 dark:text-white">
-                            Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.
+                            Introducing Starfall a intuitive web-based weather app. Feel free to check the forecast at your connivence, whether its to confirm if you need an umbrella or a jacket, our app will guide you.
                         </p>
                         <div class="flex mt-8">
                             <a href="/app" class="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400">
