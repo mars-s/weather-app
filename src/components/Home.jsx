@@ -7,8 +7,12 @@ import Card from './Card'
 const Home = () => {
     return (
         <div>
-        <CTA />
-        <Card />
+            {/* first section */}
+            <CTA />
+            <div className='h-16'></div>
+            <div >
+                <Card className='' />
+            </div>
         </div>
     )
 }
