@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import WeatherSearch from './WeatherSearch'
 // const TextLookUp = (id) => {
 //     return document.getElementById(id).value
 // }
@@ -11,7 +11,7 @@ const WeatherMode = () => {
 
     return (
         <div>
-            <Card />
+            <WeatherSearch />
             
         </div>
     )

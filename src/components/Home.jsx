@@ -2,7 +2,7 @@
 import React from 'react'
 // import WeatherSvg from './imgs/WeatherSvg'
 import CTA from './CTA'
-import Card from './Card'
+import WeatherSearch from './WeatherSearch'
 
 const Home = () => {
     return (
@@ -11,7 +11,7 @@ const Home = () => {
             <CTA />
             <div className='h-16'></div>
             <div >
-                <Card className='' />
+                <WeatherSearch />
             </div>
         </div>
     )
