@@ -184,7 +184,7 @@ export default function WeatherSearch() {
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
-        const responce = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}`)
+        const responce = fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}`)
             .then(Response => Response.json())
             .then(json => console.log(json))
             .then(setIsLoaded = true)
