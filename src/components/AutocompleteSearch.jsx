@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import Select from 'react-select';
 
@@ -174,9 +174,18 @@ const options = [
 //  "West Covina", "West Valley City", "Westminster", "Wichita", "Wilmington", "Winston", "Winter Haven", "Worcester", "Yakima", "Yonkers",
 //  "York", "Youngstown"]
 
+const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 
 export default function AutoCompleteSearch() {
     const [selectedOption, setSelectedOption] = useState(null);
+    let cityName = 'melbourne'
+    let country = 'australia'
+
+    useEffect(() => {
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName},${country}&appid=${apiKey}`)
+            .then(Response => Response.json())
+            .then(json => console.log(json))
+    }, [selectedOption])
 
     return (
         <div className="App">

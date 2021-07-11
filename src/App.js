@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import { Switch, Route, BrowserRouter as Router} from 'react-router-dom';
 
-//const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
+//
 
 
 
