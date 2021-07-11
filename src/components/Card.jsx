@@ -1,6 +1,6 @@
 import React from 'react'
 import AutoCompleteSearch from './AutocompleteSearch'
-import Button from './Button'
+
 
 const Card = () => {
     return (
@@ -8,10 +8,10 @@ const Card = () => {
         <div class="container items-center px-5 py-12 lg:px-20">
             <div class="p-6 mx-auto bg-white border rounded-lg shadow-xl lg:w-1/2">
                 <div className='grid grid-cols-4 gap-2'>
-                    <div className='col-span-3 '>
+                    <div className='col-span-4 '>
                         <AutoCompleteSearch />
                     </div>
-                    <Button text='Search' />
+                    
                 </div>
                 <div class="flex flex-col items-start py-2 rounded-lg lg:flex-row">
 

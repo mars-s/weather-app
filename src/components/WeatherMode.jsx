@@ -12,7 +12,7 @@ const WeatherMode = () => {
     return (
         <div>
             <Card />
-
+            
         </div>
     )
 }
