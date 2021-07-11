@@ -183,9 +183,12 @@ export default function WeatherSearch() {
     let iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
     const [isLoaded, setIsLoaded] = useState(false);
 
-    async getApi = () => {
-        
-    }
+    useEffect(() => {
+        const responce = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}`)
+            .then(Response => Response.json())
+            .then(json => console.log(json))
+            .then(setIsLoaded = true)
+    }, [selectedOption])
     
 
     return (
