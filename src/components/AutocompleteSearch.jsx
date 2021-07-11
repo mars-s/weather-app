@@ -176,15 +176,21 @@ const options = [
 
 const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 
+
+
+
 export default function AutoCompleteSearch() {
     const [selectedOption, setSelectedOption] = useState('null');
     // let cityName = 'melbourne'
     // let country = 'au'
 
+    
+
     useEffect(() => {
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}`)
             .then(Response => Response.json())
             .then(json => console.log(json))
+            .then(json => '')
     }, [selectedOption])
 
     return (
