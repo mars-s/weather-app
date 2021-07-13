@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-
 import Select from 'react-select';
 
 const options = [
@@ -178,17 +177,20 @@ const options = [
 const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 
 export default function WeatherSearch() {
-    const [selectedOption, setSelectedOption] = useState('null');
+    let [selectedOption, setSelectedOption] = useState('null');
+    let [Query, setQuery] = useState({})
     let iconCode = '01d'
     let iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
-        const responce = fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}`)
             .then(Response => Response.json())
-            .then(json => console.log(json))
-            .then(setIsLoaded = true)
+            .then(json => setQuery(json))
     }, [selectedOption])
+    
+    console.log(Query)
+    
     
 
     return (
