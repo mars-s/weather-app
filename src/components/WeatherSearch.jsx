@@ -185,9 +185,11 @@ export default function WeatherSearch() {
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}&units=metric`)
-            .then(Response => Response.json())
-            .then(json => setQuery(json))
+        if (selectedOption !== 'null') {
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}&units=metric`)
+                .then(Response => Response.json())
+                .then(json => setQuery(json))
+        }
     }, [selectedOption])
     
     console.log(Query)
