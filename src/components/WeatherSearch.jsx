@@ -181,7 +181,7 @@ export default function WeatherSearch() {
     const [selectedOption, setSelectedOption] = useState('null');
     let iconCode = '01d'
     let iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
-    const [isLoaded, setIsLoaded] = useState(false);
+    let [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
         const response = fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}`)
