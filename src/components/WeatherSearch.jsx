@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 import Select from 'react-select';
+import DisplayWeather from './DisplayWeather';
 
 const options = [
     // { value: 'dummyText', label: 'dummyText' },
@@ -187,15 +188,14 @@ export default function WeatherSearch() {
         if (selectedOption !== 'null') {
             fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}&units=metric`)
                 .then(Response => Response.json())
-                .then(json => setQuery(json))
+                .then(json => setQuery(
+                    {
+                        json : json
+                    }
+                ))
         }
     }, [selectedOption])
-    
-    if (selectedOption !== 'null') {
-        console.log(Query)
-    } 
-    
-    
+        
 
     return (
         <div className="container items-center px-5 py-12 lg:px-20">
@@ -218,10 +218,17 @@ export default function WeatherSearch() {
                         <img src={iconUrl} alt="placeholder" className="rounded-lg" />
                     </div>
                     <div className="flex flex-col w-full text-blueGray-500 lg:ml-4 p-3">
+                        
+                        {
+                            Query.json !== undefined ?
 
+                            <h2 className="mt-4 mb-8 text-xs font-semibold tracking-widest text-black uppercase lg:mt-0 title-font pt-3">
+                                <DisplayWeather json={Query.json} />
+                            </h2>
+                        
+                            : null
+                        }
 
-                        <h2 className="mt-4 mb-8 text-xs font-semibold tracking-widest text-black uppercase lg:mt-0 title-font pt-3">weather summary will go here</h2>
-                        <p className="mb-3 text-base leading-relaxed text-blueGray-500">a short description of the weather will go here, and the icon of the weather state will go in the picture.</p>
                     </div>
                 </div>
             </div>
