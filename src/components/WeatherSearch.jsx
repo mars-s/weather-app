@@ -191,7 +191,9 @@ export default function WeatherSearch() {
         }
     }, [selectedOption])
     
-    console.log(Query)
+    if (selectedOption !== 'null') {
+        console.log(Query)
+    } 
     
     
 
