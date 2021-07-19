@@ -182,7 +182,6 @@ export default function WeatherSearch() {
     let iconCode = '10d'
     let iconUrl = "http://openweathermap.org/img/wn/" + iconCode + "@4x.png";
     //http://openweathermap.org/img/wn/10d@2x.png
-    const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
         if (selectedOption !== 'null') {
