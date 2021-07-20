@@ -50,7 +50,7 @@ export default function WeatherSearch() {
                         {
                             Query.json !== undefined ?
 
-                            <h2 className="mt-4 mb-8 text-xs font-semibold tracking-widest text-black uppercase lg:mt-0 title-font pt-3">
+                            <h2 className="mt-4 mb-8 text-m font-semibold tracking-widest text-black uppercase lg:mt-0 title-font pt-3">
                                 <DisplayWeather json={Query.json} />
                             </h2>
                         
