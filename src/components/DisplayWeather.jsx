@@ -8,7 +8,7 @@ export default function DisplayCityName(props){
                 {json.name}, {json.sys.country}
             </span>
             <p className="mb-3 text-base leading-relaxed text-blueGray-500">
-                {json.main.temp}
+                {json.main.temp}℃
             </p>
         </div>
 
