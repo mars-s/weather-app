@@ -23,10 +23,11 @@ function App() {
             <Header currentPage='app' />
             <WeatherMode />
           </Route>
-          <Route path='/team'>
+          <Route path='/About us'>
             {/* staff memeber page */}
-            <Header currentPage='team' />
-            This is a collaboratively webapp made my programming students who are learning. 
+            <Header currentPage='About us' />
+            <p>This is a collaboratively webapp made my programming students who are learning, This is a trial project that we have
+            created to learn somethings. If there are any inprovements please feel free to tell us about them. </p>
           </Route>
         </Switch>
     </Router>
