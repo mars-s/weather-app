@@ -115,7 +115,7 @@ const options = [
     { value: 'Frederick', label: 'Frederick' },
     { value: 'Fremont', label: 'Fremont' },
     { value: 'Fresno', label: 'Fresno' },
-    { value: 'dummyText', label: 'dummyText' },
+    { value: 'Melbourne', label: 'Melbourne,Au' },
     { value: 'dummyText', label: 'dummyText' },
     { value: 'dummyText', label: 'dummyText' },
     { value: 'dummyText', label: 'dummyText' },

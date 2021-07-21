@@ -26,7 +26,7 @@ function App() {
           <Route path='/team'>
             {/* staff memeber page */}
             <Header currentPage='team' />
-            lol this is teams app
+            This is a collaboratively webapp made my programming students who are learning. 
           </Route>
         </Switch>
     </Router>
