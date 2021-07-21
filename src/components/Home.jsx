@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet'
 
 // import WeatherSvg from './imgs/WeatherSvg'
 import CTA from './CTA'
-import WeatherSearch from './WeatherSearch'
 
 const Home = () => {
     return (
@@ -13,10 +12,6 @@ const Home = () => {
             </Helmet>
             {/* first section */}
             <CTA />
-            <div className='h-16'></div>
-            <div >
-                <WeatherSearch />
-            </div>
         </div>
     )
 }
