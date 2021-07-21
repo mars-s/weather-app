@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaMoon } from 'react-icons/fa'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { WiStars } from 'react-icons/wi'
 import { IoIosClose } from 'react-icons/io'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
@@ -21,7 +20,7 @@ export default function header(props) {
 
   const navigation = [
     { name: 'Home', href: '/', current: isCurrent(props.currentPage, 'home')},
-    { name: 'Team', href: '/team', current: isCurrent(props.currentPage, 'team')},
+    { name: 'About us', href: '/About us', current: isCurrent(props.currentPage, 'About us')},
     { name: 'Weather App', href: '/app', current: isCurrent(props.currentPage, 'app')},
   ]
 
@@ -45,11 +44,11 @@ export default function header(props) {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <WiStars className='text-yellow-200 font-mono antialiased text-2xl hidden lg:block h-8 w-auto' />
-                  <h1 className="text-gray-200 font-mono antialiased text-2xl hidden lg:block h-8 w-auto"> Star Field</h1>
+                  <img src="https://img.icons8.com/color/48/000000/shooting-stars.png" alt="Shooting Stars" className=" transform scale-75" />
+                  <h1 className="text-gray-200 font-mono antialiased text-2xl hidden lg:block h-8 w-auto ml-3"> Star Field</h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 mt-1">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
