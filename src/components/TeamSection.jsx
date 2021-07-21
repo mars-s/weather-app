@@ -11,10 +11,10 @@ const TeamSection = () => {
     <p className="text-center text-3xl font-bold text-gray-800 dark:text-white mb-3">
         Professional team
     </p>
-    <p className="text-center mb-12 text-xl font-normal text-gray-500 dark:text-gray-200">
+    <p className="text-center mb-12 text-xl font-normal text-gray-500 dark:text-gray-200 mx-16">
     This is a collaboratively webapp made my programming students who are learning, This is a trial project that we have created to learn somethings. If there are any inprovements please feel free to tell us about them.
     </p>
-    <div className="flex items-center flex-col md:flex-row ml-20 place-content-center gap-x-1">
+    <div className="flex items-center flex-col md:flex-row md:ml-20 place-content-center gap-x-1 sm:ml-8">
         <div className="p-4https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTleIwDM6fkHty6QW7YkPGWR3F3Ccp10bWehg&usqp=CAU">
             <div className="text-center mb-4 opacity-90">
                 <a href="#" className="block relative">
