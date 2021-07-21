@@ -49,7 +49,7 @@ export default function header(props) {
                   <h1 className="text-gray-200 font-mono antialiased text-2xl hidden lg:block h-8 w-auto ml-3"> Star Field</h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 mt-1">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
