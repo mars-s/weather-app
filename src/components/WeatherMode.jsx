@@ -1,5 +1,7 @@
 import React from 'react'
 import WeatherSearch from './WeatherSearch'
+import { Helmet } from 'react-helmet'
+
 // const TextLookUp = (id) => {
 //     return document.getElementById(id).value
 // }
@@ -11,6 +13,11 @@ const WeatherMode = () => {
 
     return (
         <div>
+            <div>
+                <Helmet>
+                    <title>Star Field | Weather</title>
+                </Helmet>
+            </div>
             <WeatherSearch />
             
         </div>
