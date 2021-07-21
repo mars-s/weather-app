@@ -8,8 +8,6 @@ import TeamSection from './components/TeamSection';
 //const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 
 
-
-
 function App() {
   return (
     <Router>
