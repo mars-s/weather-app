@@ -84,10 +84,10 @@ const TeamSection = () => {
                     Blazexe Fire
                 </p>
                 <p className="text-xl text-gray-500 dark:text-gray-200 font-light">
-                    Front-End Designer
+                    Part-Time Invester
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                Blazexe Fire is a Front-End Designer of Star Field
+                Blazexe Fire is a Part-Time Invester (hasn't invested anything yet) of Star Field
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
