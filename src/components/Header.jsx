@@ -45,8 +45,8 @@ export default function header(props) {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <WiStars className='text-yellow-200 font-mono antialiased text-2xl hidden lg:block h-8 w-auto' />
-                  <h1 className="text-gray-200 font-mono antialiased text-2xl hidden lg:block h-8 w-auto"> Star Field</h1>
+                  <img src="https://img.icons8.com/color/48/000000/shooting-stars.png" alt="Shooting Stars" className=" transform scale-75" />
+                  <h1 className="text-gray-200 font-mono antialiased text-2xl hidden lg:block h-8 w-auto ml-3"> Star Field</h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
