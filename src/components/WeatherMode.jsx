@@ -18,7 +18,9 @@ const WeatherMode = () => {
                     <title>Star Field | Weather</title>
                 </Helmet>
             </div>
-            <WeatherSearch />
+            <div className="md:container md:mx-auto">
+                <WeatherSearch />
+            </div>
             
         </div>
     )
