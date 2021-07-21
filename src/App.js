@@ -23,9 +23,9 @@ function App() {
             <Header currentPage='app' />
             <WeatherMode />
           </Route>
-          <Route exact path='/About us'>
+          <Route exact path='/Aboutus'>
             {/* staff memeber page */}
-            <Header currentPage='About us' />
+            <Header currentPage='Aboutus' />
             <TeamSection/>
           </Route>
           <Route component={PageNotFound} />
