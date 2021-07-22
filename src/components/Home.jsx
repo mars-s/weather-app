@@ -1,7 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Feature from './Feature'
-// import WeatherSvg from './imgs/WeatherSvg'
+import Card from './Card'
+import WeatherSearch from './WeatherSearch'
 import CTA from './CTA'
 
 const Home = () => {

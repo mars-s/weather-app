@@ -1,5 +1,6 @@
 import ScrollDown from "./ScrollDown";
-
+import { ImArrowDown2 } from 'react-icons/im'
+import WeatherSearch from "./WeatherSearch";
 const Feature = () => {
     return (
       <div className="px-4 py-16 mt-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -41,7 +42,7 @@ const Feature = () => {
         </div>
         <div className="grid gap-8 row-gap-10 lg:grid-cols-2">
           <div className="max-w-md sm:mx-auto sm:text-center">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
               <svg
                 className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                 stroke="currentColor"
@@ -70,7 +71,7 @@ const Feature = () => {
             </a>
           </div>
           <div className="max-w-md sm:mx-auto sm:text-center">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
               <svg
                 className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                 stroke="currentColor"
@@ -101,7 +102,7 @@ const Feature = () => {
             </a>
           </div>
           <div className="max-w-md sm:mx-auto sm:text-center">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
               <svg
                 className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                 stroke="currentColor"
@@ -132,7 +133,7 @@ const Feature = () => {
             </a>
           </div>
           <div className="max-w-md sm:mx-auto sm:text-center">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
               <svg
                 className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                 stroke="currentColor"
@@ -165,6 +166,17 @@ const Feature = () => {
             </a>
           </div>
         </div>
+        <div className='flex justify-center rounded-full my-5 bg-pink-100 pt-2 pl-2 mb-5 transition duration-500 ease-in-out transform hover:scale-110'>
+            <div className='mt-2'>
+                <p className="inline-block px-3 py-px mb-4 text-s font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+                Give it a try
+                </p>
+            </div>
+            <div className='rounded-full bg-pink-100 p-3 transition duration-500 ease-in-out transform hover:scale-110 '>
+                <ImArrowDown2 className='text-2xl' />
+            </div>
+        </div>
+        <WeatherSearch />
       </div>
     );
   };
