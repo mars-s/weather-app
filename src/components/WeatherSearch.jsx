@@ -41,10 +41,6 @@ export default function WeatherSearch() {
 
                 </div>
                 <div className="flex flex-col items-start py-2 rounded-lg lg:flex-row">
-
-                    <div className="flex items-center justify-center w-full lg:justify-start lg:w-1/2">
-                        <img src={iconUrl} alt="placeholder" />
-                    </div>
                     <div className="flex flex-col w-full text-blueGray-500 lg:ml-4 p-3">
                         
                         {
