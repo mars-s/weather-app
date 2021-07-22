@@ -9,8 +9,6 @@ const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 export default function WeatherSearch() {
     let [selectedOption, setSelectedOption] = useState('null');
     let [Query, setQuery] = useState({})
-    let iconCode = '10d'
-    let iconUrl = "http://openweathermap.org/img/wn/" + iconCode + "@4x.png";
     //http://openweathermap.org/img/wn/10d@2x.png
 
     useEffect(() => {
@@ -42,10 +40,6 @@ export default function WeatherSearch() {
 
                 </div>
                 <div className="flex flex-col items-start py-2 rounded-lg lg:flex-row">
-
-                    <div className="flex items-center justify-center w-full lg:justify-start lg:w-1/2">
-                        <img src={iconUrl} alt="placeholder" />
-                    </div>
                     <div className="flex flex-col w-full text-blueGray-500 lg:ml-4 p-3">
                         
                         {
