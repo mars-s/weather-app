@@ -1,5 +1,4 @@
 import React from 'react'
-import AutoCompleteSearch from './AutocompleteSearch'
 
 
 const Card = () => {
@@ -8,9 +7,7 @@ const Card = () => {
         <div className="container items-center px-5 py-12 lg:px-20">
             <div className="p-6 mx-auto bg-white border rounded-lg shadow-xl lg:w-1/2">
                 <div className='grid grid-cols-4 gap-2'>
-                    <div className='col-span-4 '>
-                        <AutoCompleteSearch />
-                    </div>
+                    
                     
                 </div>
                 <div className="flex flex-col items-start py-2 rounded-lg lg:flex-row">

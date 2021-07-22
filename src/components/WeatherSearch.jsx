@@ -3,6 +3,7 @@ import Select from 'react-select';
 import DisplayWeather from './DisplayWeather';
 import options from './Cities';
 
+
 const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 
 export default function WeatherSearch() {

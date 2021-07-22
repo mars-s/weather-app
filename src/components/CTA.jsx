@@ -8,7 +8,7 @@ const CTA = () => {
                     <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
                         <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12">
                         </span>
-                        <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
+                        <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800 transition duration-500 ease-in-out transform hover:scale-105">
                             <span className="md:text-5xl sm:text-7xl sm:container">
                                 Your
                             </span>weather
@@ -28,7 +28,7 @@ const CTA = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="container md:ml-22 md:mr-4 sm:container sm:ml-32 sm:object-cover visible md:visible sm:invisible">
+                    <div className="container md:ml-22 md:mr-4 sm:container sm:ml-32 sm:object-cover visible md:visible sm:invisible transition duration-500 ease-in-out transform hover:scale-105">
                         <img src="https://images.pexels.com/photos/7766717/pexels-photo-7766717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt='pic' className="object-cover object-left h-full w-full rounded-3xl shadow-2xl" />
                     </div>
                 </div>
