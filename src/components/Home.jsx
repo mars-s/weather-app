@@ -1,7 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-
-// import WeatherSvg from './imgs/WeatherSvg'
+import Feature from './Feature'
+import Card from './Card'
+import WeatherSearch from './WeatherSearch'
 import CTA from './CTA'
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             </Helmet>
             {/* first section */}
             <CTA />
+            <Feature />
         </div>
     )
 }
