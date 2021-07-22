@@ -1,9 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const PageNotFound = () =>{
 
     return (  
         <div class="bg-indigo-900 relative overflow-hidden h-screen">
+            <div>
+                <Helmet>
+                    <title>Star Field | 404</title>
+                </Helmet>
+            </div>
             <img src="https://wallpaperaccess.com/full/492661.jpg" alt="" class="absolute h-full w-full object-cover"/>
             <div class="inset-0 bg-black opacity-25 absolute">
             </div>
