@@ -9,8 +9,6 @@ const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 export default function WeatherSearch() {
     let [selectedOption, setSelectedOption] = useState('null');
     let [Query, setQuery] = useState({})
-    let iconCode = '10d'
-    let iconUrl = "http://openweathermap.org/img/wn/" + iconCode + "@4x.png";
     //http://openweathermap.org/img/wn/10d@2x.png
 
     useEffect(() => {
