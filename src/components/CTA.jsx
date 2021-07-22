@@ -28,7 +28,7 @@ const CTA = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="container md:ml-22 md:mr-4 sm:container sm:ml-32 sm:object-cover visible md:visible sm:invisible">
+                    <div className="container md:ml-22 md:mr-4 sm:container sm:ml-32 sm:object-cover visible md:visible sm:invisible transition duration-500 ease-in-out transform hover:scale-105">
                         <img src="https://images.pexels.com/photos/7766717/pexels-photo-7766717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt='pic' className="object-cover object-left h-full w-full rounded-3xl shadow-2xl" />
                     </div>
                 </div>
