@@ -20,7 +20,7 @@ export default function header(props) {
 
   const navigation = [
     { name: 'Home', href: '/', current: isCurrent(props.currentPage, 'home')},
-    { name: 'About us', href: '/About us', current: isCurrent(props.currentPage, 'About us')},
+    { name: 'About us', href: '/Aboutus', current: isCurrent(props.currentPage, 'Aboutus')},
     { name: 'Weather App', href: '/app', current: isCurrent(props.currentPage, 'app')},
   ]
 
