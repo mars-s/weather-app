@@ -8,7 +8,7 @@ const CTA = () => {
                     <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
                         <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12">
                         </span>
-                        <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800 transition duration-500 ease-in-out transform hover:scale-105">
+                        <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
                             <span className="md:text-5xl sm:text-7xl sm:container">
                                 Your
                             </span>weather
