@@ -66,7 +66,7 @@ const TeamSection = () => {
                     GhostReaper46
                 </p>
                 <p className="text-xl text-gray-500 dark:text-gray-200 font-light">
-                    Front-End Designer
+                    Head of Front-End Designing
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
                     GhostReaper46 is a Front-End Designer of Star Field

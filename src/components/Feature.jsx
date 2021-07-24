@@ -86,12 +86,11 @@ const Feature = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-3 text-xl font-bold leading-5">When has justice</h6>
+            <h6 className="mb-3 text-xl font-bold leading-5">User-Friendly</h6>
             <p className="mb-3 text-sm text-gray-900">
-              Rough pomfret lemon shark plownose chimaera southern sandfish
-              kokanee northern sea robin Antarctic cod. Yellow-and-black triplefin
-              gulper South American Lungfish mahi-mahi, butterflyfish glass
-              catfish soapfish ling gray mullet!
+              We have simplified the weather checking experience from complicated terms and factors that you will find in other apps and websites.
+              In our website you don't worry about things like the wind direction or the visibility. You can just concentrate on what is really important,
+              the weather in simple terms with a nice representative image. 
             </p>
             <a
               href="/"
@@ -117,12 +116,9 @@ const Feature = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-3 text-xl font-bold leading-5">Organically grow</h6>
+            <h6 className="mb-3 text-xl font-bold leading-5">Made my outselves</h6>
             <p className="mb-3 text-sm text-gray-900">
-              A slice of heaven. O for awesome, this chocka full cuzzie is as
-              rip-off as a cracker. Meanwhile, in behind the bicycle shed,
-              Hercules Morse, as big as a horse and Mrs Falani were up to no good
-              with a bunch of crook pikelets.
+              We haven't got codes or other elements of our application from other people. It was all ourselves. 
             </p>
             <a
               href="/"
@@ -149,13 +145,11 @@ const Feature = () => {
               </svg>
             </div>
             <h6 className="mb-3 text-xl font-bold leading-5">
-              A slice of heaven
+              Its Free
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              Disrupt inspire and think tank, social entrepreneur but preliminary
-              thinking think tank compelling. Inspiring, invest synergy capacity
-              building, white paper; silo, unprecedented challenge B-corp
-              problem-solvers.
+              We have made this application that means that there is nothing like a subscription at all. Its completely free, end of topic.
+              Nothing more, Nothing less. 
             </p>
             <a
               href="/"
