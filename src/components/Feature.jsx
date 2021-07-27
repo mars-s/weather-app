@@ -26,11 +26,6 @@ const Feature = () => {
                     <circle cx="1" cy="1" r=".7" />
                   </pattern>
                 </defs>
-                <rect
-                  fill="url(#ea469ae8-e6ec-4aca-8875-fc402da4d16e)"
-                  width="52"
-                  height="24"
-                />
               </svg>
               <span className="relative">Why</span>
             </span>{' '}
@@ -166,7 +161,7 @@ const Feature = () => {
                 Give it a try
                 </p>
             </div>
-            <div className='rounded-full bg-pink-100 p-3 transition duration-500 ease-in-out transform hover:scale-110 '>
+            <div className='rounded-full bg-pink-100 p-3 transition duration-500 ease-in-out transform hover:scale-110 animate-bounce'>
                 <ImArrowDown2 className='text-2xl' />
             </div>
         </div>

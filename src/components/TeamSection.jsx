@@ -14,7 +14,7 @@ const TeamSection = () => {
     <p className="text-center mb-12 text-xl font-normal text-gray-500 dark:text-gray-200 mx-16">
     This is a collaboratively webapp made my programming students who are learning, This is a trial project that we have created to learn somethings. If there are any inprovements please feel free to tell us about them.
     </p>
-    <div className="flex items-center flex-col md:flex-row md:ml-20 place-content-center gap-x-1 sm:ml-8">
+    <div className="flex items-center flex-col md:flex-row md:ml-17 place-content-center gap-x-1 sm:ml-8">
         <div className="p-4https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTleIwDM6fkHty6QW7YkPGWR3F3Ccp10bWehg&usqp=CAU">
             <div className="text-center mb-4 opacity-90">
                     <img alt="profile pic" src="https://avatars.githubusercontent.com/u/71009876?v=4" className="mx-auto object-cover rounded-full h-40 w-40 "/>
@@ -27,10 +27,7 @@ const TeamSection = () => {
                     Head Developer
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                ScriptedRain is a Head Developer of
-                    <p>
-                        Star Field
-                    </p>
+                ScriptedRain is the Head Developer of Star Field
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
@@ -48,10 +45,7 @@ const TeamSection = () => {
                     Co-Head Developer
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                    Krishp058 is a Co-Head Developer of
-                    <p>
-                        Star Field
-                    </p>
+                    Krishp058 is the Co-Head Developer of Star Field
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
@@ -69,7 +63,7 @@ const TeamSection = () => {
                     Head of Front-End Designing
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                    GhostReaper46 is a Front-End Designer of Star Field
+                    GhostReaper46 is the Front-End Designer of Star Field
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
@@ -87,7 +81,7 @@ const TeamSection = () => {
                     Part-Time Invester
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                Blazexe Fire is a Part-Time Invester (hasn't invested anything yet) of Star Field
+                Blazexe Fire is the Part-Time Invester (hasn't invested anything yet) of Star Field
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
