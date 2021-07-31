@@ -23,7 +23,7 @@ const CTA = () => {
                             <a href="/app" className="transition duration-300 ease-in-out uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-white shadow-lg hover:text-pink-500 transform hover:-translate-1 hover:scale-105 border-pink-500">
                                 Get started
                             </a>
-                            <a href='/team' className="transition duration-300 ease-in-out uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 shadow-lg hover:text-white text-md transform hover:-translate-1 hover:scale-105">
+                            <a href='/Aboutus' className="transition duration-300 ease-in-out uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 shadow-lg hover:text-white text-md transform hover:-translate-1 hover:scale-105">
                                 Read more
                             </a>
                         </div>
