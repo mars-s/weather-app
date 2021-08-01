@@ -3,7 +3,7 @@ import React from 'react'
 const CTA = () => {
     return (
         <>
-            <div className="bg-white dark:bg-gray-800 flex relative z-20 bg-gray-100 items-center overflow-hidden">
+            <div className="dark:bg-gray-800 flex relative z-20 bg-gray-100 items-center overflow-hidden">
                 <div className="container mx-auto px-6 flex relative py-16">
                     <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
                         <div className='bg-moon-pic md:bg-transparent'>

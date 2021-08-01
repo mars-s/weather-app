@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 const TeamSection = () => {
-    return <div className="p-8 bg-white dark:bg-gray-800 rounded-lg shadow">
+    return <div className="p-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow ">
         <div>
             <Helmet>
                 <title>Star Field | About us</title>
