@@ -37,7 +37,7 @@ const Feature = () => {
           </div>
           <div className="grid gap-8 row-gap-10 lg:grid-cols-2">
             <div className="max-w-md sm:mx-auto sm:text-center">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-800 text-white sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                   stroke="currentColor"
@@ -66,7 +66,7 @@ const Feature = () => {
               </a>
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-800 text-white sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                   stroke="currentColor"
@@ -96,7 +96,7 @@ const Feature = () => {
               </a>
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-800 text-white sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                   stroke="currentColor"
@@ -124,7 +124,7 @@ const Feature = () => {
               </a>
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-800 text-white sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
                 <svg
                   className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                   stroke="currentColor"

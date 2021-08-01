@@ -10,7 +10,7 @@ const ScrollDown = (props) => {
                 {props.text}
                 </p>
             </div>
-            <div className='rounded-full bg-pink-100 md:p-3.5 mr-3 transition duration-500 group-hover:bg-gray-800 group-hover:text-white ease-in-out'>
+            <div className='rounded-full bg-pink-500 text-white p-3.5 mr-3 transition duration-500 group-hover:bg-gray-800 group-hover:text-white ease-in-out'>
                 <ImArrowDown2 className='text-2xl' />
             </div>
         </div>
