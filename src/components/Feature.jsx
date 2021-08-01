@@ -2,7 +2,7 @@ import ScrollDown from "./ScrollDown";
 import WeatherSearch from "./WeatherSearch";
 const Feature = () => {
     return (
-      <div>
+      <div className='bg-gray-100'>
           <div className='m-1 flex justify-center invisible h-0 md:h-auto md:visible'>
             <ScrollDown text={'scroll down'} />
           </div>

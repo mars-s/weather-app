@@ -5,7 +5,7 @@ import CTA from './CTA'
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-gray-100'>
             <Helmet>
                 <title>Star Field | Home</title>
             </Helmet>
