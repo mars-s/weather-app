@@ -1,7 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import DisplayWeather from './DisplayWeather';
-import options from './Cities';
-
 
 const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 
@@ -22,7 +20,6 @@ export default function WeatherSearch() {
         }
     }
         
-
     return (
         <div className="container items-center px-5 py-12 lg:px-20">
             <div className="p-6 mx-auto bg-white border rounded-lg shadow-xl lg:w-1/2">
