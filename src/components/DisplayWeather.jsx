@@ -2,7 +2,9 @@ import React from 'react'
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
-  }
+}
+
+export let isWrong = false
 
 export default function DisplayWeather(props){
     try {
@@ -26,7 +28,10 @@ export default function DisplayWeather(props){
 
         </div>
     } catch {
-        alert("Wrong city name!")
+        if (isWrong === false) {
+            alert("Wrong city name!")
+            isWrong = true
+        }
     }
 
 }

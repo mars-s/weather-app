@@ -1,15 +1,21 @@
 import { useState } from 'react';
 import DisplayWeather from './DisplayWeather';
+import { isWrong } from './DisplayWeather';
 
 const apiKey = '25cd6c1f94edbabc663aec7fd32b3bf0'
 
 export default function WeatherSearch() {
     let [selectedOption, setSelectedOption] = useState('null');
     let [Query, setQuery] = useState({})
+
+    if (isWrong) {
+        setSelectedOption('null')
+        isWrong = false
+    }
     //http://openweathermap.org/img/wn/10d@2x.png
 
     const search = (event) => {
-        if (event.key === "Enter") {
+        if (event.key === "Enter" && selectedOption !== 'null') {
                 fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption}&appid=${apiKey}&units=metric`)
                 .then(Response => Response.json())
                 .then(json => setQuery(
