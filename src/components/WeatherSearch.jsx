@@ -10,7 +10,7 @@ export default function WeatherSearch() {
 
     const search = (event) => {
         if (event.key === "Enter") {
-            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption}&appid=${apiKey}&units=metric`)
+                fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption}&appid=${apiKey}&units=metric`)
                 .then(Response => Response.json())
                 .then(json => setQuery(
                     {
