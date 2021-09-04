@@ -60,10 +60,10 @@ const TeamSection = () => {
                     GhostReaper46
                 </p>
                 <p className="text-xl text-gray-500 dark:text-gray-200 font-light">
-                    Head of Front-End Designing
+                    Front-End Planner
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                    GhostReaper46 is the Front-End Designer of Star Field
+                    GhostReaper46 is the Front-End Planner of Star Field
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
