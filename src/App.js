@@ -26,7 +26,7 @@ function App() {
           <Route exact path='/Aboutus'>
             {/* staff memeber page */}
             <Header currentPage='Aboutus' />
-            <TeamSection/>
+            <TeamSection />
           </Route>
           <Route component={PageNotFound} />
         </Switch>

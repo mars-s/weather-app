@@ -2,16 +2,16 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 const TeamSection = () => {
-    return <div className="p-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow ">
+    return <div className=" p-8 bg-gray-100 bg-origin-border dark:bg-gray-800 border-8 ring-8 ring-gray-100 border-gray-100 shadow ">
         <div>
             <Helmet>
                 <title>Star Field | About us</title>
             </Helmet>
         </div>
-    <p className="text-center text-3xl font-bold text-gray-800 dark:text-white mb-3">
+    <p className="text-center text-4xl font-bold text-gray-800 dark:text-white mb-4">
         Professional team
     </p>
-    <p className="text-center mb-12 text-xl font-normal text-gray-500 dark:text-gray-200 mx-16">
+    <p className="text-center mb-16 text-xl font-normal text-gray-500 dark:text-gray-200 mx-16">
     This is a collaboratively webapp made my programming students who are learning, This is a trial project that we have created to learn somethings. If there are any inprovements please feel free to tell us about them.
     </p>
     <div className="flex items-center flex-col md:flex-row md:ml-17 place-content-center gap-x-1 sm:ml-8">
@@ -27,7 +27,7 @@ const TeamSection = () => {
                     Head Developer
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                ScriptedRain is the Head Developer of Star Field
+                ScriptedRain is the Head Developer of Star Field. ScriptedRain has done the front-end and back-end of Star Field.
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
@@ -45,7 +45,7 @@ const TeamSection = () => {
                     Co-Head Developer
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                    Krishp058 is the Co-Head Developer of Star Field
+                    Krishp058 is the Co-Head Developer of Star Field. Krishp058 has done the front-end and back-end of Star Field.
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
@@ -63,13 +63,13 @@ const TeamSection = () => {
                     Front-End Planner
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                    GhostReaper46 is the Front-End Planner of Star Field
+                    GhostReaper46 is the Front-End Planner of Star Field. GhostReaper46 planned the structure for the front-end of Star Field.
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
             </div>
         </div>
-        <div className="p-4">
+        <div className="p-4 mr-4">
             <div className="text-center mb-4 opacity-90">
                     <img alt="profile pic" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1597374204170/yxboJdRi8.jpeg" className="mx-auto object-cover rounded-full h-40 w-40 shadow-md "/>
             </div>
@@ -81,7 +81,7 @@ const TeamSection = () => {
                     Part-Time Invester
                 </p>
                 <p className="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                Blazexe Fire is the Part-Time Invester (hasn't invested anything yet) of Star Field
+                Blazexe Fire is the Part-Time Invester of Star Field. Blazexe Fire currently hasn't invested anything yet.
                 </p>
             </div>
             <div className="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
