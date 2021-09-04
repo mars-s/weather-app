@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaMoon } from 'react-icons/fa'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { IoIosClose } from 'react-icons/io'
 import { Fragment } from 'react'
