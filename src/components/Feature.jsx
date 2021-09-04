@@ -66,7 +66,7 @@ const Feature = () => {
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                
               </a>
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
@@ -86,7 +86,7 @@ const Feature = () => {
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                
               </a>
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
@@ -104,7 +104,7 @@ const Feature = () => {
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                
               </a>
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
@@ -125,7 +125,7 @@ const Feature = () => {
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                
               </a>
             </div>
           </div>
