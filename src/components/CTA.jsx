@@ -18,7 +18,7 @@ const CTA = () => {
                                 </span>
                             </h1>
                             <p className="text-sm sm:text-base text-gray-700 dark:text-white">
-                                Introducing Starfield a intuitive web-based weather app. Feel free to check the forecast at your connivence, whether its to confirm if you need an umbrella or a jacket, our app will guide you.
+                                Introducing Starfield a intuitive web-based Australian weather app. Feel free to check the forecast at your connivence, whether its to confirm if you need an umbrella or a jacket, our app will guide you.
                             </p>
                         </div>
                         

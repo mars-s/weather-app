@@ -1,5 +1,9 @@
 import ScrollDown from "./ScrollDown";
 import WeatherSearch from "./WeatherSearch";
+import { MdMoneyOff } from 'react-icons/md'
+import { HiOutlineUserGroup } from 'react-icons/hi'
+import { GiFeather } from 'react-icons/gi'
+
 const Feature = () => {
     return (
       <div className='bg-gray-100'>
@@ -38,7 +42,7 @@ const Feature = () => {
           <div className="grid gap-8 row-gap-10 lg:grid-cols-2">
             <div className="max-w-md sm:mx-auto sm:text-center">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-800 text-white sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
-                <svg
+              <svg
                   className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
@@ -67,19 +71,9 @@ const Feature = () => {
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-800 text-white sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                
+                <GiFeather className="text-5xl"/>
+
               </div>
               <h6 className="mb-3 text-xl font-bold leading-5">User-Friendly</h6>
               <p className="mb-3 text-sm text-gray-900">
@@ -97,19 +91,9 @@ const Feature = () => {
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-800 text-white sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                
+                <HiOutlineUserGroup className="text-5xl mb-1"/>
+
               </div>
               <h6 className="mb-3 text-xl font-bold leading-5">Made my outselves</h6>
               <p className="mb-3 text-sm text-gray-900">
@@ -125,19 +109,9 @@ const Feature = () => {
             </div>
             <div className="max-w-md sm:mx-auto sm:text-center">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-800 text-white sm:mx-auto sm:w-24 sm:h-24 transition duration-500 ease-in-out transform hover:scale-125">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                
+                <MdMoneyOff className="text-5xl"/>
+
               </div>
               <h6 className="mb-3 text-xl font-bold leading-5">
                 Its Free
