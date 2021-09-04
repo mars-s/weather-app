@@ -17,7 +17,7 @@ const TeamSection = () => {
     <div className="flex items-center flex-col md:flex-row md:ml-17 place-content-center gap-x-1 sm:ml-8">
         <div className="p-4https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTleIwDM6fkHty6QW7YkPGWR3F3Ccp10bWehg&usqp=CAU">
             <div className="text-center mb-4 opacity-90">
-                    <img alt="profile pic" src="https://avatars.githubusercontent.com/u/71009876?v=4" className="mx-auto object-cover rounded-full h-40 w-40 "/>
+                    <img alt="profile pic" src="https://avatars.githubusercontent.com/u/71009876?v=4" className="mx-auto object-cover rounded-full h-40 w-40 shadow-md "/>
             </div>
             <div className="text-center">
                 <p className="text-2xl text-gray-800 dark:text-white">
@@ -35,7 +35,7 @@ const TeamSection = () => {
         </div>
         <div className="p-4">
             <div className="text-center mb-4 opacity-90">
-                    <img alt="profile pic" src="https://avatars.githubusercontent.com/u/74632222?s=400&u=39d1044a6e037478cd344024812f2f03df8e2238&v=4" className="mx-auto object-cover rounded-full h-40 w-40 "/>
+                    <img alt="profile pic" src="https://avatars.githubusercontent.com/u/74632222?s=400&u=39d1044a6e037478cd344024812f2f03df8e2238&v=4" className="mx-auto object-cover rounded-full h-40 w-40 shadow-md "/>
             </div>
             <div className="text-center">
                 <p className="text-2xl text-gray-800 dark:text-white">
@@ -53,7 +53,7 @@ const TeamSection = () => {
         </div>
         <div className="p-4">
             <div className="text-center mb-4 opacity-90">
-                    <img alt="profile pic" src="https://avatars.githubusercontent.com/u/83068695?v=4" className="mx-auto object-cover rounded-full h-40 w-40 "/>
+                    <img alt="profile pic" src="https://avatars.githubusercontent.com/u/83068695?v=4" className="mx-auto object-cover rounded-full h-40 w-40 shadow-md "/>
             </div>
             <div className="text-center">
                 <p className="text-2xl text-gray-800 dark:text-white">
@@ -71,7 +71,7 @@ const TeamSection = () => {
         </div>
         <div className="p-4">
             <div className="text-center mb-4 opacity-90">
-                    <img alt="profile pic" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1597374204170/yxboJdRi8.jpeg" className="mx-auto object-cover rounded-full h-40 w-40 "/>
+                    <img alt="profile pic" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1597374204170/yxboJdRi8.jpeg" className="mx-auto object-cover rounded-full h-40 w-40 shadow-md "/>
             </div>
             <div className="text-center">
                 <p className="text-2xl text-gray-800 dark:text-white">
