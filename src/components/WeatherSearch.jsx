@@ -13,7 +13,7 @@ export default function WeatherSearch() {
 
     useEffect(() => {
         if (selectedOption !== 'null') {
-            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label}&appid=${apiKey}&units=metric`)
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedOption.label},Au&appid=${apiKey}&units=metric`)
                 .then(Response => Response.json())
                 .then(json => setQuery(
                     {
