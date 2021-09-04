@@ -11,8 +11,8 @@ const TeamSection = () => {
     <p className="text-center text-4xl font-bold text-gray-800 dark:text-white mb-4">
         Professional team
     </p>
-    <p className="text-center mb-16 text-xl font-normal text-gray-500 dark:text-gray-200 mx-16">
-    This is a collaboratively webapp made my programming students who are learning, This is a trial project that we have created to learn somethings. If there are any inprovements please feel free to tell us about them.
+    <p className="text-center mb-16 text-xl font-normal text-gray-500 dark:text-gray-200 md:mx-16">
+    This is a collaboratively web-based app made by students who are learning, This is a trial project that we have created to learn new things. If there are any improvements you would want to suggest, please feel free to let us know about them.
     </p>
     <div className="flex items-center flex-col md:flex-row md:ml-17 place-content-center gap-x-1 sm:ml-8">
         <div className="p-4https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTleIwDM6fkHty6QW7YkPGWR3F3Ccp10bWehg&usqp=CAU">
