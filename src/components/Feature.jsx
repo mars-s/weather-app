@@ -95,7 +95,7 @@ const Feature = () => {
                 <HiOutlineUserGroup className="text-5xl mb-1"/>
 
               </div>
-              <h6 className="mb-3 text-xl font-bold leading-5">Made my outselves</h6>
+              <h6 className="mb-3 text-xl font-bold leading-5">Made it ourselves</h6>
               <p className="mb-3 text-sm text-gray-900">
                 We haven't got codes or other elements of our application from other people. It was all ourselves. 
               </p>
