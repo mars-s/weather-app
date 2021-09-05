@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineMenu } from 'react-icons/ai'
 import { IoIosClose } from 'react-icons/io'
+import { FiSettings } from 'react-icons/fi'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 
@@ -21,6 +22,7 @@ export default function header(props) {
     { name: 'Home', href: '/', current: isCurrent(props.currentPage, 'home')},
     { name: 'About us', href: '/Aboutus', current: isCurrent(props.currentPage, 'Aboutus')},
     { name: 'Weather App', href: '/app', current: isCurrent(props.currentPage, 'app')},
+    { name: 'Settings', href: '/Settings', current: isCurrent(props.currentPage, 'settings')},
   ]
 
 
@@ -28,7 +30,7 @@ export default function header(props) {
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
+          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -77,10 +79,9 @@ export default function header(props) {
                   {({ open }) => (
                     <>
                       <div>
-                        <div className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                          <span className="sr-only">Open user menu</span>
-                          {/* <FaMoon className="text-white focus:text-blue-400" /> */}
-                        </div>
+                        <a href="/Settings" className="text-2xl bg-gray-800 flex rounded-full sm:visible md:invisible lg:invisible">
+                          <FiSettings className="text-gray-300 hover:text-white text-2xl" />
+                        </a>
                       </div>
                       <Transition
                         show={open}
