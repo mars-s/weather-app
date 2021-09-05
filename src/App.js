@@ -28,6 +28,9 @@ function App() {
             <Header currentPage='Aboutus' />
             <TeamSection />
           </Route>
+          <Route exact path='/Settings'>
+            <Header currentPage='settings'/>
+          </Route>
           <Route component={PageNotFound} />
         </Switch>
     </Router>

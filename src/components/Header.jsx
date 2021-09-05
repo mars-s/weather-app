@@ -28,7 +28,7 @@ export default function header(props) {
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
+          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -42,10 +42,10 @@ export default function header(props) {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
+                <a href="/" className="flex-shrink-0 flex items-center">
                   <img src="https://img.icons8.com/color/48/000000/shooting-stars.png" alt="Shooting Stars" className=" transform scale-75" />
                   <h1 className="text-gray-200 font-mono antialiased text-2xl hidden lg:block h-8 w-auto ml-3"> Star Field</h1>
-                </div>
+                </a>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4 mt-1">
                     {navigation.map((item) => (
@@ -77,10 +77,6 @@ export default function header(props) {
                   {({ open }) => (
                     <>
                       <div>
-                        <div className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                          <span className="sr-only">Open user menu</span>
-                          {/* <FaMoon className="text-white focus:text-blue-400" /> */}
-                        </div>
                       </div>
                       <Transition
                         show={open}
