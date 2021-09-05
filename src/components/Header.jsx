@@ -1,7 +1,6 @@
 import React from 'react';
 import { AiOutlineMenu } from 'react-icons/ai'
 import { IoIosClose } from 'react-icons/io'
-import { FiSettings } from 'react-icons/fi'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 
@@ -22,7 +21,6 @@ export default function header(props) {
     { name: 'Home', href: '/', current: isCurrent(props.currentPage, 'home')},
     { name: 'About us', href: '/Aboutus', current: isCurrent(props.currentPage, 'Aboutus')},
     { name: 'Weather App', href: '/app', current: isCurrent(props.currentPage, 'app')},
-    { name: 'Settings', href: '/Settings', current: isCurrent(props.currentPage, 'settings')},
   ]
 
 
@@ -79,9 +77,6 @@ export default function header(props) {
                   {({ open }) => (
                     <>
                       <div>
-                        <a href="/Settings" className="text-2xl bg-gray-800 flex rounded-full sm:visible md:invisible lg:invisible">
-                          <FiSettings className="text-gray-300 hover:text-white text-2xl" />
-                        </a>
                       </div>
                       <Transition
                         show={open}
